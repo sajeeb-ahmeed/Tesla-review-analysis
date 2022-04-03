@@ -5,6 +5,8 @@
     font-size: 26px;
 }
 
+
+
 .navbar-color {
     font-family: 'Raleway', sans-serif;
     color: #fff !important;
@@ -12,4 +14,38 @@
     text-decoration: none;
     font-weight: 500;
     text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-color:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #ea3b06;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.navbar-color:hover:before,
+.navbar-color:focus:before,
+.navbar-color:active:before {
+    right: 0;
+}
+
+.active-link {
+    color: #e81b08 !important;
 }

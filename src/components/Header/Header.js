@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import CustomLink from '../CoustomLink/CustomLink';
 import './Header.css'
 
 const Header = () => {
@@ -17,11 +18,12 @@ const Header = () => {
                         </Nav>
                         <Nav className='text-light'>
 
-                            <Link className='navbar-color' to='/'> Home </Link>
-                            <Link className='navbar-color' to='/reviews'> Reviews </Link>
-                            <Link className='navbar-color' to='/dashboard'> Dashboard </Link>
-                            <Link className='navbar-color' to='/blogs'> Blogs </Link>
-                            <Link className='navbar-color' to='/about'> About </Link>
+
+                            <CustomLink className='navbar-color' to='/'> Home </CustomLink>
+                            <CustomLink className='navbar-color' to='/reviews'> Reviews </CustomLink>
+                            <CustomLink className='navbar-color' to='/dashboard'> Dashboard </CustomLink>
+                            <CustomLink className='navbar-color' to='/blogs'> Blogs </CustomLink>
+                            <CustomLink className='navbar-color' to='/about'> About </CustomLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
