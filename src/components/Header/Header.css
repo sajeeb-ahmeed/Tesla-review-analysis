@@ -1,0 +1,15 @@
+.teko {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 26px;
+}
+
+.navbar-color {
+    font-family: 'Raleway', sans-serif;
+    color: #fff !important;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
