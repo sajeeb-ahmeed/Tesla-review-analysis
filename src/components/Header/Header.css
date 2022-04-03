@@ -5,7 +5,10 @@
     font-size: 26px;
 }
 
-
+.botn {
+    text-decoration: none;
+    font-weight: 500;
+}
 
 .navbar-color {
     font-family: 'Raleway', sans-serif;

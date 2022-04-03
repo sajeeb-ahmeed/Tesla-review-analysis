@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital@0;1&family=Teko:wght@400;500;600&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Raleway Dots', cursive;
+
+
     font-family: 'Teko', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.sills {
+    background-color: #F8F8F8;
 }
