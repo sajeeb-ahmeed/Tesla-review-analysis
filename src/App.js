@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Notfound from './components/NotFound/Notfound';
 import Reviews from './components/Reviews/Reviews';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
+        <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
     </div>
   );
