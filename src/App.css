@@ -13,3 +13,38 @@ p {
 .sills {
     background-color: #F8F8F8;
 }
+
+.textstart {
+    color: rgba(229, 146, 45, 0.762);
+}
+
+.specing {
+    letter-spacing: 3px;
+
+
+}
+
+.specing::before {
+    content: 'Our Happy Clients Says';
+    border-bottom: 4px solid rgba(67, 55, 46, 0.698);
+    letter-spacing: 3px;
+    position: absolute;
+
+
+}
+
+.review-container {
+    margin: 0 auto;
+    width: 992px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+    .review-container {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

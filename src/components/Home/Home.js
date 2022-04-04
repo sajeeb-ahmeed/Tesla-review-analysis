@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { ReviewContext } from '../../App';
 import CustomLink from '../CoustomLink/CustomLink';
+import HomeReview from '../HomePageReview/HomeReview';
 
 const Home = () => {
+    const [review, setReview] = useContext(ReviewContext);
+    const newReview = [...review];
+    console.log(newReview.slice(0, 3));
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setReview(data))
+    }, [setReview])
     return (
         <div>
             <div className="row sills pt-lg-5">
@@ -15,10 +25,20 @@ const Home = () => {
                     <p>Add a premium touch to your Tesla by accentuating your vehicle’s model name with Model Y Illuminated Door Sills. This elegant addition requires no additional wiring to your vehicle’s electrical system.</p>
 
                     <p>
-                        <CustomLink className='btn btn-outline-dark ' to='/'> Live Demo</CustomLink>
+                        <CustomLink className='btn btn-outline-dark px-lg-5 px-3' to='/blogs'> Live Demo</CustomLink>
                     </p>
                 </div>
+                <h1 className='text-center my-5 specing'>Our Happy Clients Says </h1>
+                <div className="review-container">
+
+                    {
+                        newReview.slice(0, 3).map(singleReview => <HomeReview key={singleReview.id} singleReview={singleReview}></HomeReview>)
+                    }
+                </div>
+
+                <p className='my-5 text-center'><Link className='btn px-lg-5 px-3 btn-outline-dark' to='/reviews'>See All Reviews</Link></p>
             </div>
+
         </div>
     );
 };
