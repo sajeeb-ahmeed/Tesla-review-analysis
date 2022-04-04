@@ -1,15 +1,20 @@
-# Getting Started with Create React App
+# TESHLA REVIEWS ZONE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Tesla Review ](https://github.com/programming-hero-web-course-4/product-analysis-website-sajeeb-ahmeed/ "Github Link ") and https://github.com/programming-hero-web-course-4/product-analysis-website-sajeeb-ahmeed or live link <https://tesla-reviews.netlify.app/>
 
-## Available Scripts
+## Use Tools 
 
-In the project directory, you can run:
+Tools | Assists | Meterials
+| :--- | ---: | :---:
+Racat  JSX | React Bootstrap | Racat Recharts
+ Racat Icons | React Router | Components
+API   | React Dom | Context API
+Vs Code  | Netlity | Google Content 
 
-### `npm start`
+### `Share Idea `
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://tesla-reviews.netlify.app/](https://tesla-reviews.netlify.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
