@@ -9,4 +9,4 @@ const useReviews = () => {
     }, [])
     return [reviews, setReviews]
 }
-export default useReviews
+export default useReviews;
