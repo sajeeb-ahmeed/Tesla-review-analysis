@@ -5,7 +5,7 @@ import useChart from '../../hook/useChart';
 const ChartDubble = () => {
     const [chart] = useChart()
     return (
-        <div>
+        <div className='my-4'>
             <ResponsiveContainer width="100%" height={200}>
                 <AreaChart
                     width={500}

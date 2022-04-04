@@ -23,7 +23,7 @@ const Header = () => {
                             <CustomLink className='navbar-color' to='/reviews'> Reviews </CustomLink>
                             <CustomLink className='navbar-color' to='/dashboard'> Dashboard </CustomLink>
                             <CustomLink className='navbar-color' to='/blogs'> Blogs </CustomLink>
-                            <CustomLink className='navbar-color' to='/about'> About </CustomLink>
+                            <CustomLink className='navbar-color' to='/contact'> Contact </CustomLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

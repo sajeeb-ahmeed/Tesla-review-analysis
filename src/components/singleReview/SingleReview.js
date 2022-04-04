@@ -5,12 +5,12 @@ import { BsStarHalf, BsStarFill } from 'react-icons/bs';
 const SingleReview = ({ review }) => {
     const { name, imageURL, subtittle, ratings, reviewperson } = review;
     return (
-        <div className=' container '>
+        <div className=' container mb-3 '>
             <div className=" text-center">
 
                 <Card style={{ width: '20rem', height: '35rem' }} >
                     <Card.Body>
-                        <Card.Img variant="top" src={imageURL} height={'260px'} />
+                        <Card.Img className='object-cover' variant="top" src={imageURL} height={'260px'} />
                         <Card.Title className='my-3'>{name}</Card.Title>
                         <Card.Subtitle className="mb-3 text-muted">{subtittle}</Card.Subtitle>
                         <Card.Text>

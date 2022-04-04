@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { BsStar, BsStarHalf, BsStarFill } from 'react-icons/bs';
+import { BsStarHalf, BsStarFill } from 'react-icons/bs';
 
 const HomeReview = ({ singleReview }) => {
     const { name, reviewperson, ratings, subtittle, imageURL } = singleReview;
@@ -10,7 +10,7 @@ const HomeReview = ({ singleReview }) => {
 
                 <Card style={{ width: '20rem' }}>
                     <Card.Body>
-                        <Card.Img variant="top" src={imageURL} height={'260px'} />
+                        <Card.Img className='object-cover' variant="top" src={imageURL} height={'260px'} />
                         <Card.Title className='my-3'>{name}</Card.Title>
                         <Card.Subtitle className="mb-3 text-muted">{subtittle}</Card.Subtitle>
                         <Card.Text>

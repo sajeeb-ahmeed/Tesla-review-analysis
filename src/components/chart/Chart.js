@@ -8,7 +8,7 @@ const Chart = () => {
 
     // const { name, month, investment, revenue, sell } = chart;
     return (
-        <div className='container mt-5'>
+        <div className='container my-5 mb-5'>
             <div className="row gap-5 ">
                 <div className="col-md-12 ">
                     <Chartrevenew></Chartrevenew>
@@ -18,6 +18,9 @@ const Chart = () => {
                 </div>
                 <div>
                     <ChartDubble></ChartDubble>
+                </div>
+                <div className='mb-5'>
+
                 </div>
             </div>
         </div>

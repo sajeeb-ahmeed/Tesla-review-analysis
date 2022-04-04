@@ -26,6 +26,15 @@ p {
 
 }
 
+.object-cover {
+    object-fit: cover;
+}
+
+.font {
+    font-family: sans-serif !important;
+
+}
+
 .specing::before {
     content: 'Our Happy Clients Says';
     border-bottom: 4px solid rgba(67, 55, 46, 0.698);

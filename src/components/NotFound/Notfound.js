@@ -27,7 +27,7 @@ const Notfound = () => {
                             </p>
                             <p>
                                 <Link
-                                    to='/about'
+                                    to='/contact'
                                     className='btn - btn-outline-dark'
                                 >
                                     Contact us
