@@ -3,7 +3,7 @@
         "id": 123,
         "name": "Jhankar Mahbub",
         "subtittle": " CEO , Programming Hero",
-        "review": "Tesla's Model S was the first mass-market car to prove that EVs can be exciting to drive, viable as daily transportation, and usable for long trips.",
+        "reviewperson": "Tesla's Model S was the first mass-market car to prove that EVs can be exciting to drive, viable as daily transportation, and usable for long trips. The Tesla Model X is very quick, fun to drive, and has impressive range, but the spartan cabin and steep price limit its appeal.",
         "ratings": 5,
         "imageURL": "https://images.squarespace-cdn.com/content/59dce1fa80bd5e67177b5efe/1508431308775-06R17E9NKZW9XXIN1H49/11138647_10152658520856891_2718987297397745986_n.jpg?content-type=image%2Fjpeg"
     },
@@ -11,15 +11,15 @@
         "id": 222,
         "name": "SaJeeb Ahmeed",
         "subtittle": " CEO , NEXT DEVELOPER ",
-        "review": "Tesla has singlehandedly changed the electric-car landscape, and the 2021 Model 3 is the least expensive way to get one of these tech wonders in your driveway.",
-        "ratings": 7,
+        "reviewperson": "Tesla has singlehandedly changed the electric-car landscape, and the 2021 Model 3 is the least expensive way to get one of these tech wonders in your driveway.The Model 3 is now Teslas most affordable model and has the range to convert electric-car skeptics",
+        "ratings": 4.5,
         "imageURL": "https://i.ibb.co/TB49kCL/my-favourite.jpg"
     },
     {
         "id": 111,
         "name": "Zareen Tashneem",
         "subtittle": " CEO ,  DEVELOPER' HEART ",
-        "review": "As the SUV cousin of the Model S sedan, the 2021 Tesla Model X might be the greenest—and one of the fastest—ways to tote up to seven people or lots of cargo",
+        "reviewperson": "As the SUV cousin of the Model S sedan, the 2021 Tesla Model X might be the greenest—and one of the fastest—ways to tote up to seven people or lots of cargo .The Model S is an electric luxury sedan that makes many of its premium-badged rivals seem fussy and old fashioned.",
         "ratings": 5,
         "imageURL": "https://i.ibb.co/yQQBD4V/156726544-2801892196806750-2656031916162564002-n.jpg"
     },
@@ -27,15 +27,15 @@
         "id": 345,
         "name": "Karina Islam",
         "subtittle": " M.D , Programming Hero",
-        "review": "Among the more affordable options in the electric-vehicle marketplace, the Tesla Model 3 is arguably the one with the most name recognition.",
-        "ratings": 5,
+        "reviewperson": "Among the more affordable options in the electric-vehicle marketplace, the Tesla Model 3 is arguably the one with the most name recognition.The Model X is futuristic and can be freakishly fast, but its interior lacks the panache and quality we expect of a luxury SUV in this price range.",
+        "ratings": 4.5,
         "imageURL": "https://miro.medium.com/max/3150/1*USbjraJlqL5wOrjN59OI-w.jpeg"
     },
     {
         "id": 678,
         "name": "Mark Otto",
         "subtittle": " Bussniess Man",
-        "review": "The latest from Tesla is the all-electric Model Y compact SUV, which shares its platform and most of its cabin with the Model 3 sedan but has more cargo space",
+        "reviewperson": "The latest from Tesla is the all-electric Model Y compact SUV, which shares its platform and most of its cabin with the Model 3 sedan but has more cargo space. The affordable and functional Model 3 will help Tesla push all-electric vehicles into the mainstream.",
         "ratings": 5,
         "imageURL": "https://pickytop.com/wp-content/uploads/2020/05/Hrithik-Roshan.jpg"
     },
@@ -43,16 +43,32 @@
         "id": 890,
         "name": "Chris JJ Mohamed",
         "subtittle": " Writer",
-        "review": "Touted to make its return to the lineup in 2023, the new Tesla Roadster picks up where the old model left off.",
-        "ratings": 5,
+        "reviewperson": "Touted to make its return to the lineup in 2023, the new Tesla Roadster picks up where the old model left off.With a long driving range and luxury marketing, the Tesla Model S has made electric vehicles desirable and motivated established automakers to build their own.",
+        "ratings": 4,
         "imageURL": "https://t3.ftcdn.net/jpg/02/94/62/14/360_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg"
     },
     {
         "id": 333,
         "name": " Mr Jhon Doe",
         "subtittle": " Heroin",
-        "review": "Tesla has singlehandedly changed the electric-car landscape, and the Model 3 is the least expensive way to get one of the company's tech wonders in your driveway.",
+        "reviewperson": "Tesla has singlehandedly changed the electric-car landscape, and the Model 3 is the least expensive way to get one of the company's tech wonders in your driveway.Tesla's impact on America's automotive landscape was miniscule until the game-changing Model S sedan came along.",
         "ratings": 5,
         "imageURL": "https://media.gettyimages.com/photos/doing-it-for-the-love-of-success-picture-id637234116?s=612x612"
+    },
+    {
+        "id": 222,
+        "name": "Fida",
+        "subtittle": " CEO , NEXT DEVELOPER ",
+        "reviewperson": "Tesla has singlehandedly changed the electric-car landscape, and the 2021 Model 3 is the least expensive way to get one of these tech wonders in your driveway.The Model 3 is now Teslas most affordable model and has the range to convert electric-car skeptics",
+        "ratings": 4.5,
+        "imageURL": "https://i.ibb.co/TB49kCL/my-favourite.jpg"
+    },
+    {
+        "id": 111,
+        "name": "Tuktuki",
+        "subtittle": " CEO ,  DEVELOPER' HEART ",
+        "reviewperson": "As the SUV cousin of the Model S sedan, the 2021 Tesla Model X might be the greenest—and one of the fastest—ways to tote up to seven people or lots of cargo .The Model S is an electric luxury sedan that makes many of its premium-badged rivals seem fussy and old fashioned.",
+        "ratings": 5,
+        "imageURL": "https://i.ibb.co/yQQBD4V/156726544-2801892196806750-2656031916162564002-n.jpg"
     }
 ]

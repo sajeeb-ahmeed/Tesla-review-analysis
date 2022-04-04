@@ -1,14 +1,14 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { BsStar, BsStarHalf, BsStarFill } from 'react-icons/bs';
+import { BsStarHalf, BsStarFill } from 'react-icons/bs';
 
-const HomeReview = ({ singleReview }) => {
-    const { name, reviewperson, ratings, subtittle, imageURL } = singleReview;
+const SingleReview = ({ review }) => {
+    const { name, imageURL, subtittle, ratings, reviewperson } = review;
     return (
-        <div className=' container'>
+        <div className=' container '>
             <div className=" text-center">
 
-                <Card style={{ width: '20rem' }}>
+                <Card style={{ width: '20rem', height: '35rem' }} >
                     <Card.Body>
                         <Card.Img variant="top" src={imageURL} height={'260px'} />
                         <Card.Title className='my-3'>{name}</Card.Title>
@@ -28,7 +28,6 @@ const HomeReview = ({ singleReview }) => {
                             :
                             <p>
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
-
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
@@ -43,4 +42,4 @@ const HomeReview = ({ singleReview }) => {
     );
 };
 
-export default HomeReview;
+export default SingleReview;

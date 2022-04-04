@@ -4,6 +4,7 @@ import { ReviewContext } from '../../App';
 import CustomLink from '../CoustomLink/CustomLink';
 import HomeReview from '../HomePageReview/HomeReview';
 
+
 const Home = () => {
     const [review, setReview] = useContext(ReviewContext);
     const newReview = [...review];
@@ -34,6 +35,7 @@ const Home = () => {
                     {
                         newReview.slice(0, 3).map(singleReview => <HomeReview key={singleReview.id} singleReview={singleReview}></HomeReview>)
                     }
+
                 </div>
 
                 <p className='my-5 text-center'><Link className='btn px-lg-5 px-3 btn-outline-dark' to='/reviews'>See All Reviews</Link></p>

@@ -6,7 +6,7 @@ function CustomLink({ children, to, ...props }) {
     let match = useMatch({ path: resolved.pathname, end: true });
 
     return (
-        <div>
+        <>
             <Link
                 style={{ className: match ? 'active-link' : 'navbar-color' }}
                 to={to}
@@ -15,7 +15,7 @@ function CustomLink({ children, to, ...props }) {
                 {children}
             </Link>
 
-        </div>
+        </>
     );
 }
 
