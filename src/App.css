@@ -58,4 +58,8 @@ p {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .smnone1 {
+        display: none !important;
+    }
 }

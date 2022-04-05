@@ -10,13 +10,15 @@ const Chart = () => {
     return (
         <div className='container my-5 mb-5'>
             <div className="row gap-5 ">
-                <div className="col-md-12 ">
+                <div className="col-md-12 smnone1 ">
                     <Chartrevenew></Chartrevenew>
+
                 </div>
-                <div className="col-md-7">
+
+                <div>
                     <ChartGhrap></ChartGhrap>
                 </div>
-                <div>
+                <div className='col-12'>
                     <ChartDubble></ChartDubble>
                 </div>
                 <div className='mb-5'>
