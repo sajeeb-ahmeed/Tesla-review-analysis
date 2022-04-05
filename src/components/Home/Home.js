@@ -8,7 +8,7 @@ import HomeReview from '../HomePageReview/HomeReview';
 const Home = () => {
     const [review, setReview] = useContext(ReviewContext);
     const newReview = [...review];
-    // console.log(newReview.slice(0, 3));
+    console.log(newReview.slice(0, 3));
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())

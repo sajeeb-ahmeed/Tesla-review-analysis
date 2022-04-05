@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Notfound = () => {
     return (
         <div>
-            <section className=' container-fluid p-lg-5 '>
+            <section className=' container-fluid p-lg-5 notfound'>
                 <div className='row justify-content-center  align-items-center'>
-                    <div className='col-md-5  '>
+                    <div className='col-md-5 text-light '>
                         <p className='mb-2 '>
                             Error 404
                         </p>
@@ -20,7 +20,7 @@ const Notfound = () => {
                             <p>
                                 <Link
                                     to='/'
-                                    className='btn - btn-outline-dark'
+                                    className='btn - btn-outline-light'
                                 >
                                     Back to homepage
                                 </Link>
@@ -28,7 +28,7 @@ const Notfound = () => {
                             <p>
                                 <Link
                                     to='/contact'
-                                    className='btn - btn-outline-dark'
+                                    className='btn - btn-outline-light'
                                 >
                                     Contact us
                                 </Link>
@@ -37,13 +37,18 @@ const Notfound = () => {
                     </div>
 
                     <div className='col-md-7'>
-                        <img className='img-fluid'
-                            src='https://thumbs.dreamstime.com/b/%C3%B0%C2%BF%C3%B0%C2%B5%C3%B1%E2%80%A1%C3%B0%C2%B0%C3%B1%E2%80%9A%C3%B1%C5%93-134036857.jpg'
-                            alt=''
-                        />
+                        <Link to='/'>
+                            <img className='img-fluid object-cover'
+                                src='https://colibriwp.com/blog/wp-content/uploads/2019/07/2488756.jpg'
+                                alt=''
+                            />
+                        </Link>
+
                     </div>
                 </div>
+                <div className='notfounds'>
 
+                </div>
             </section>
         </div>
     );

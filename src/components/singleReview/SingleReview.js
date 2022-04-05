@@ -14,7 +14,7 @@ const SingleReview = ({ review }) => {
                         <Card.Title className='my-3'>{name}</Card.Title>
                         <Card.Subtitle className="mb-3 text-muted">{subtittle}</Card.Subtitle>
                         <Card.Text>
-                            {reviewperson.slice(0, 150) + '...'}
+                            {reviewperson.slice(0, 170) + '...'}
                         </Card.Text>
                         <Card.Link to='/'>{ratings !== 5 ?
                             <p className=''>
@@ -24,6 +24,7 @@ const SingleReview = ({ review }) => {
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
                                 <BsStarHalf className='textstart'></BsStarHalf>
+                                <span className='text-muted ms1-2'> <small>({ratings})</small></span>
                             </p>
                             :
                             <p>
@@ -32,8 +33,9 @@ const SingleReview = ({ review }) => {
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
                                 <BsStarFill className='me-2 textstart'></BsStarFill>
                                 <BsStarFill className=' textstart'></BsStarFill>
+                                <span className='text-muted ms1-2'> <small>({ratings})</small></span>
                             </p>
-                        } </Card.Link>
+                        }  </Card.Link>
 
                     </Card.Body>
                 </Card>

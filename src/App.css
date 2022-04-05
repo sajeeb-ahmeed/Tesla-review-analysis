@@ -26,6 +26,13 @@ p {
 
 }
 
+.ms1-2 {
+    text-decoration: none;
+    margin-left: 6px;
+    margin: 3px;
+    font-size: 12px;
+}
+
 .object-cover {
     object-fit: cover;
 }
@@ -36,7 +43,7 @@ p {
 }
 
 .specing::before {
-    content: 'Our Happy Clients Says';
+    content: 'Our Happy Clients Says- (3)';
     border-bottom: 4px solid rgba(67, 55, 46, 0.698);
     letter-spacing: 3px;
     position: absolute;
