@@ -38,7 +38,7 @@ const Notfound = () => {
 
                     <div className='col-md-7'>
                         <Link to='/'>
-                            <img className='img-fluid object-cover'
+                            <img className='img-fluid'
                                 src='https://colibriwp.com/blog/wp-content/uploads/2019/07/2488756.jpg'
                                 alt=''
                             />
@@ -46,8 +46,8 @@ const Notfound = () => {
 
                     </div>
                 </div>
-                <div className='notfounds'>
-
+                <div className='notfounds text-light text-center'>
+                    <p>Copyright © {new Date().getFullYear()} Allright reserved</p>
                 </div>
             </section>
         </div>

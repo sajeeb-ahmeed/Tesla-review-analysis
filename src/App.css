@@ -43,7 +43,7 @@ p {
 }
 
 .specing::before {
-    content: 'Our Happy Clients Says- (3)';
+    content: 'Our Happy Clients Says';
     border-bottom: 4px solid rgba(67, 55, 46, 0.698);
     letter-spacing: 3px;
     position: absolute;
@@ -69,4 +69,10 @@ p {
     .smnone1 {
         display: none !important;
     }
+}
+
+.imgs {
+    width: 100% !important;
+    height: 720px !important;
+    object-fit: cover !important;
 }

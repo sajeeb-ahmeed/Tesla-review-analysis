@@ -5,17 +5,20 @@ import CustomLink from '../CoustomLink/CustomLink';
 import HomeReview from '../HomePageReview/HomeReview';
 
 
+
 const Home = () => {
     const [review, setReview] = useContext(ReviewContext);
     const newReview = [...review];
-    console.log(newReview.slice(0, 3));
+    // console.log(newReview.slice(0, 3));
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setReview(data))
-    }, [setReview])
+    }, [setReview]);
+
     return (
         <div>
+
             <div className="row sills pt-lg-5">
                 <div className="col-md-7 ">
                     <img src={`https://www.tesla.com/ns_videos/commerce/content/dam/tesla/tesla-shop-marketing-imagery/image-grid/model_y.jpg`} className='img-fluid ' alt="" />
@@ -29,7 +32,7 @@ const Home = () => {
                         <CustomLink className='btn btn-outline-dark px-lg-5 px-3' to='/blogs'> Live Demo</CustomLink>
                     </p>
                 </div>
-                <h1 className='text-center my-5 specing'>Our Happy Clients Says </h1>
+                <h1 className='text-center my-5 specing'>Our Happy Clients Says</h1>
                 <div className="review-container">
 
                     {
